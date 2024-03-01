@@ -1,3 +1,9 @@
-site_name: My Docs
+site_name: Panabit 指北
+
+repo_name: wiki
+repo_url: https://github.com/panabit-community/wiki
+
 theme:
   name: material
+  palette:
+    primary: 'white'
