@@ -5,5 +5,20 @@ repo_url: https://github.com/panabit-community/wiki
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
   palette:
     primary: 'white'
+
+nav:
+  - 开始:
+      - index.md
+  - 通用:
+      - common/index.md
+  - 智能应用网关:
+      - panabit/index.md
+  - 大数据日志审计系统:
+      - panalog/index.md
+  - NTM网络全流量溯源系统:
+      - ntm/index.md
